@@ -4,7 +4,7 @@ function DetailPage() {
   const newsId = router.query.newsId
   return (
     <div>
-      <h1>DetailPage {newsId}</h1>
+      <h1>{newsId}</h1>
     </div>
   )
 }
